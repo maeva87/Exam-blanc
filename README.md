@@ -6,8 +6,8 @@
 - Jean--Daudé Louka
 
   ### Rôle:
-  - maéva ; commande git
-  - mohamed ; workflow
-  - louka ; intro set-uo
+  - maéva ; workflow
+  - mohamed ; commande git
+  - louka ; intro set-up
  
   
