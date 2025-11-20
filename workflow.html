@@ -2,12 +2,33 @@
 <html lang=""fr>
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css" />
         <title>Workflow</title>
     </head>
     <body>
-        <h1>Mon workflow</h1>
-        <h2>Explication du Workflow</h2>
-        <p>Un workflow, aussi appelé flux de travaux ou flux opérationnel, désigne une suite de tâches ou d'opérations qui doivent être réalisées par un individu ou un groupe d'individus selon un ordre spécifique.</p>
+        <h1>Workflow Git Simple</h1>
+        <div class="step">
+            <h2>2. Développer sur la feature branch</h2>
+            <p>Travaillez sur votre fonctionnalité sur cette branche. Commitez vos changements régulièrement :</p>
+            <code>git add .</code><br>
+            <code>git commit -m "Ajout de ma fonctionnalité"</code>
+        </div>
+        <div class="step">
+            <h2>3. Merge dans la branche principale via PR</h2>
+            <p>Lorsque la feature est terminée, poussez la branche :</p>
+            <code>git push origin feature/ma-nouvelle-fonctionnalite</code>
+            <p>Puis ouvrez une <strong>Pull Request (PR)</strong> pour merger vos changements dans <code>main</code> ou <code>develop</code>.</p>
+        </div>
+        <div class="step">
+            <h2>4. Révision et validation</h2>
+            <p>Un collègue revoit votre code, valide la PR et merge la branche.</p>
+        </div>
+        <div class="step">
+            <h2>5. Nettoyage</h2>
+            <p>Après le merge, supprimez la feature branch locale et distante :</p>
+            <code>git branch -d feature/ma-nouvelle-fonctionnalite</code><br>
+            <code>git push origin --delete feature/ma-nouvelle-fonctionnalite</code>
+        </div>    
         <a href="commands.html">Page précédente</a>
         <a href="introduction.html">Page d'accueil</a>
     </body>
