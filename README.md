@@ -9,5 +9,3 @@
   - maéva ; workflow
   - mohamed ; commande git
   - louka ; intro set-up
- 
-Ce wiki explique les bases de Git pour débutants.
