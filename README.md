@@ -10,4 +10,5 @@
   - mohamed ; commande git
   - louka ; intro set-up
  
+ Ce wiki présente le workflow Git et des outils associés.
   
